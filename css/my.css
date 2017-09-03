@@ -1,0 +1,34 @@
+:not(pre) > code { 
+    display: inline !important; 
+}
+section .imageblock img{
+    border:0px solid pink;
+    box-shadow: none;
+    background-color: transparent;
+    
+}
+.paragraph .image img{
+    margin-right: 14px;  
+}
+div.paragraph.text-left {
+    float: left; 
+}
+table.frame-none {
+    border-collapse: collapse;
+    border: none;
+    font-size: 0.6em;
+    line-height: 0;
+    margin: 0 auto;
+}
+table.frame-none tr {
+    border: none;
+}
+table.frame-none td {
+    border: none;
+}
+table td.tableblock span.small {
+    font-size:0.5em;
+}
+/* 
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="small">94+</span></p></td>
+*/
